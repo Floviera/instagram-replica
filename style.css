@@ -117,10 +117,11 @@ body {
 
 .last-comment{
 	width: 375px;
-    height: 125px;
+    height: 100px;
     background-color: #fafafa;
     border-bottom: 1px solid #eeeeee;
     color: #1d2124;
+    margin-bottom: 5px; 
 }
 
 .heart {
@@ -191,8 +192,8 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875em;
     color: #212529;
-    text-align: center; 
-    margin-top: 105%;
+    margin-top: 5%;
+    margin-left: 55px;
     
 }
 
