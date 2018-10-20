@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Lato:100i|Roboto:400,700');
+
+
+body {
+	width: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/*container ---------------------*/
+.container{
+	margin-left: 60%;
+}
+
+/*logo ---------------------*/
+.insta-title {
+    width: 375px;
+    height: 50px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    font-family: 'Oleo Script', cursive;
+    text-align: center; 
+    color: #1d2124;
+    margin-top: 5px;
+}
+
+.dropdown-toggle{
+	float: right;
+	border-radius: 50px;
+}
+
+.dropdown{
+	width: 375px;
+    height: 50px;
+    background-color: #fafafa;
+}
+
+/*user ---------------------*/
+
+.user-name{
+	width: 375px;
+    height: 40px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    color: #1d2124;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+
+.userImg{
+	width: 31px; 
+	height: 31px;
+	border-radius: 50px;
+	margin-left: 5px;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+/*img ---------------------*/
+.instaImg{
+	width: 375px;
+	height: 330px;
+}
+
+/*comments ---------------------*/
+.comments{
+	width: 375px;
+    height: 190px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    color: #1d2124;
+}
+
+.last-comment{
+	width: 375px;
+    height: 125px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+    color: #1d2124;
+}
+
+.heart {
+	font-size: 25px; 
+	margin-left: 5px;
+}
+
+.heart:hover{
+	color: red;
+}
+
+.likes, .name {
+	font-size: 13px;
+	margin-left: 5px;
+}
+
+/*toggler ---------------------*/
+
+.toggler{
+	width: 375px;
+    height: 50px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/*toggler ---------------------*/
+
+.nav {
+	width: 375px;
+	background-color: #fafafa;
+}
+
+#nav-home-tab{
+	margin-left: 40%;
+}
+
+.a {
+	color: #ccc;
+}
+
+a:hover{
+	color: #ccc;
+}
+
+/*gallery ---------------------*/
+
+.galleryImg{
+	width: 120px;
+	height: 75px; 
+	margin-top: 2px;
+	margin-left: 2px; 
+}
+
+.gallery {
+	width: 375px;
+	background-color: #fafafa;
+}
+
+.galleryborder{
+	width: 365px; 
+	height: 22px; 
+	background-color: transparent;
+}
+
+/*footer------------------------------*/
+.footer{
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875em;
+    color: #212529;
+    text-align: center; 
+    margin-top: 105%;
+    
+}
+
+@keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.4); }
+	to { transform: none; }
+}
+
+
+.heart {
+	display: inline-block;
+	font-size: 15px;
+	color: #212529;
+	animation: pound .80s infinite;
+	transform-origin: center;
+}
